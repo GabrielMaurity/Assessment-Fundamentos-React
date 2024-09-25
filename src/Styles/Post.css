@@ -1,0 +1,25 @@
+  .post-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .post-list {
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+    
+  .post-card h3 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .post-card p {
+    color: #666;
+    margin-top: 10px;
+  }
+  

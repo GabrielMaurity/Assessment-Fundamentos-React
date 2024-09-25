@@ -1,0 +1,37 @@
+.comment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  .comment-list {
+    display: block; /* Layout de lista */
+  }
+  
+  .comment-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);    
+  }
+  
+  .comment-card small {
+    display: block; /* Faz o e-mail ocupar uma linha separada */
+    margin-bottom: 8px; /* Espaçamento abaixo do e-mail */
+  }
+  
+
+  .delete-button {
+    background-color: red; 
+    color: white; 
+    border: none; 
+    border-radius: 4px;
+    padding: 8px 12px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred; /* Escurece o botão ao passar o mouse */
+  }
+  
