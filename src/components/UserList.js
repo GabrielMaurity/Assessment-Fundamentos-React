@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import FetchData from './FetchData';
-import UserCard from './UserCard'; // Importa o UserCard
+import UserCard from './UserCard'; 
 
 const UserList = ({ onSelectUser, isGridView }) => {
   const [users, setUsers] = useState([]);

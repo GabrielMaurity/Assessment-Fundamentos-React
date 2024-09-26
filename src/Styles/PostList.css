@@ -15,6 +15,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.2s;
+    background-color: #efc3e6;
   }
   
   .post-card:hover {

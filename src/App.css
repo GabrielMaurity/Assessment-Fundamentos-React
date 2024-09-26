@@ -1,17 +1,15 @@
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 main {
-  background-color: #f6fff8;
+  height: 820px;
+  background-color: #f0e6ef;  
 }
 
 footer {
-  bottom: 0;
-  position: fixed;
-  width: 90%;
   text-align: center;
 }
 

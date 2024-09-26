@@ -1,7 +1,7 @@
 // PostList.js
 import React, { useEffect, useState } from 'react';
 import FetchData from './FetchData';
-import '../Styles/PostList.css'; // Importando o CSS
+import '../Styles/PostList.css'; 
 
 const PostList = ({ userId, onSelectPost, isGridView }) => {
   const [posts, setPosts] = useState([]);
@@ -11,7 +11,7 @@ const PostList = ({ userId, onSelectPost, isGridView }) => {
   }, [userId]);
 
   return (
-    <div className={isGridView ? 'post-grid' : 'post-list'}> {/* Adicionando classe com base no layout */}
+    <div className={isGridView ? 'post-grid' : 'post-list'}> 
       <h2>Posts</h2>
       {posts.map(post => (
         <div 

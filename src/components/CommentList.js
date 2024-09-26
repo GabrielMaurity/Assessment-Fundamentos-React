@@ -1,7 +1,7 @@
 // CommentList.js
 import React, { useEffect, useState } from 'react';
 import FetchData from './FetchData';
-import '../Styles/CommentList.css'; // Importando o CSS
+import '../Styles/CommentList.css'; 
 
 const CommentList = ({ postId, isGridView }) => {
   const [comments, setComments] = useState([]);
@@ -25,7 +25,7 @@ const CommentList = ({ postId, isGridView }) => {
   return (
     <div>
       <h2>Comments</h2>
-      <div className={isGridView ? 'comment-grid' : 'comment-list'}> {/* Adicionando classe com base no layout */}
+      <div className={isGridView ? 'comment-grid' : 'comment-list'}> 
         {comments.map(comment => (
           <div className="comment-card" key={comment.id}>
             <p>{comment.body}</p>
