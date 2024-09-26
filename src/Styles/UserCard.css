@@ -1,11 +1,11 @@
 .user-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 16px; /* Espaçamento entre os cards */
+  gap: 16px; 
 }
 
 .user-list {
-  display: block; /* Layout de lista */
+  display: block; 
 }
 
   .user-card {
@@ -19,7 +19,7 @@
   }
   
   .user-card:hover {
-    transform: scale(1.05); /* Efeito ao passar o mouse */
+    transform: scale(1.05); 
   }
   
   .user-card h3 {

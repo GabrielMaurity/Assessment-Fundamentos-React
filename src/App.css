@@ -9,18 +9,21 @@ main {
 }
 
 footer {
+  bottom: 0;
+  position: fixed;
+  width: 90%;
   text-align: center;
 }
 
 .toggle-button {
-  background-color: transparent; /* Ou qualquer cor que desejar */
+  background-color: transparent; 
   border: none;
   cursor: pointer;
-  font-size: 24px; /* Ajuste o tamanho conforme necessário */
-  margin: 10px; /* Adicione margem se desejar */
-  transition: color 0.3s; /* Efeito de transição suave para a cor */
+  font-size: 24px; 
+  margin: 10px; 
+  transition: color 0.3s; 
 }
 
 .toggle-button:hover {
-  color: #007BFF; /* Cor ao passar o mouse */
+  color: #007BFF; 
 }

@@ -5,7 +5,7 @@
   }
   
   .comment-list {
-    display: block; /* Layout de lista */
+    display: block; 
   }
   
   .comment-card {
@@ -16,8 +16,8 @@
   }
   
   .comment-card small {
-    display: block; /* Faz o e-mail ocupar uma linha separada */
-    margin-bottom: 8px; /* Espaçamento abaixo do e-mail */
+    display: block; 
+    margin-bottom: 8px; 
   }
   
 
@@ -32,6 +32,6 @@
   }
   
   .delete-button:hover {
-    background-color: darkred; /* Escurece o botão ao passar o mouse */
+    background-color: darkred; 
   }
   
